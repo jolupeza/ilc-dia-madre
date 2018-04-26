@@ -1,0 +1,16 @@
+.Box {
+  margin-bottom: 3rem;
+}
+.Box__figure {
+  background: transparent url('./../images/frame.png') center 0 no-repeat;
+  background-size: contain;
+  padding: .8rem;
+  transform: rotate(1deg);
+}
+.Box__title {
+  font-family: $catalina;
+  font-size: 3.25rem;
+  @media screen and (max-width: 991px) {
+    font-size: 2.5rem;
+  }
+}

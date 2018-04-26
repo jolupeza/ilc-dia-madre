@@ -1,0 +1,25 @@
+.Btn {
+  @include border-radius(1.5rem);
+  cursor: pointer;
+  font-size: 1.25rem;
+  font-weight: 700;
+  padding: .3rem 2.5rem;
+  @include transition(background-color .3s ease-out, color .2s ease-in);
+  &--ghost {
+    background-color: transparent;
+    border: 2px solid $firstColor;
+    color: $firstColor;
+    &:focus, &:hover {
+      background-color: $firstColor;
+      color: white;
+    }
+    &--second {
+      border-color: $secondColor;
+      color: $secondColor;
+      &:focus, &:hover {
+        background-color: $secondColor;
+        color: white;
+      }
+    }
+  }
+}

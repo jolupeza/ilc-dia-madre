@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Inversiones La Cruz - Día de la Madre</title>
+
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body class="Body Body--register">
+  <header class="Header">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col">
+          <h1 class="Header__logo text-center">
+            <a href="index.html">
+              <img class="img-fluid" src="./images/logo.png" alt="Inversiones La Cruz" />
+            </a>
+          </h1>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main class="Main">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 align-self-end">
+          <article class="Main__slogan">
+            <figure class="Main__slogan__figure text-center mb-0">
+              <img src="./images/picture-register.png" alt="" class="img-fluid" />
+            </figure>
+          </article>
+        </div>
+        <div class="col-lg-6">
+          <article class="Main__register">
+            <h2 class="Main__resalt accentColor text-center mb-4">¡Completa tus datos y participa del sorteo de 90 vales!</h2>
+
+            <ul class="Main__awards d-flex justify-content-center mt-3 mb-3">
+              <li><img src="images/award-day.png" alt="Full day" class="img-fluid"></li>
+              <li><img src="images/award-look.png" alt="Cambio de look" class="img-fluid"></li>
+              <li><img src="images/award-spa.png" alt="Spa" class="img-fluid"></li>
+            </ul>
+
+            <form class="Main__form Form mt-5 mb-4" action="">
+              <div class="form-row">
+                <div class="form-group Form__group col-md-6">
+                  <label for="name" class="Form__label">Nombre</label>
+                  <input type="text" class="form-control Form__control" name="name" id="name" autocomplete="off" />
+                </div>
+
+                <div class="form-group Form__group col-md-6">
+                  <label for="dni" class="Form__label">D.N.I.</label>
+                  <input type="text" class="form-control Form__control" name="dni" id="dni" autocomplete="off" />
+                </div>
+              </div>
+
+              <div class="form-row">
+                <div class="form-group Form__group col-md-6">
+                  <label for="email" class="Form__label">Correo</label>
+                  <input type="email" class="form-control Form__control" name="email" id="email" autocomplete="off" />
+                </div>
+
+                <div class="form-group Form__group col-md-6">
+                  <label for="phone" class="Form__label">Teléfono</label>
+                  <input type="text" class="form-control Form__control" name="phone" id="phone" autocomplete="off" />
+                </div>
+              </div>
+
+              <div class="form-row">
+                <div class="form-group Form__group col-md-6">
+                  <label for="photo" class="Form__label">Comparte tu foto con nosotros</label>
+                  <label for="photo" class="Form__file__container">
+                    <i class="icon-camera mr-2"></i> Sube tu foto
+                    <input type="file" class="form-control-file Form__control__file" id="photo" name="photo" />
+                  </label>
+                </div>
+
+                <div class="form-group Form__group col-md-6 text-center">
+                  <h5 class="Form__label small text-center">¿Qué podrías empeñar en ILC</h5>
+
+                  <div class="form-check form-check-inline Form__check__container">
+                    <input class="form-check-input Form__check__input Form__check__input--custom" type="radio" name="type" id="type_joya" value="joya">
+                    <label class="form-check-label" for="type_joya">
+                      <i class="icon-joya" data-select="false"></i>
+                    </label>
+                  </div>
+                  <div class="form-check form-check-inline Form__check__container">
+                    <input class="form-check-input Form__check__input Form__check__input--custom" type="radio" name="type" id="type_auto" value="auto">
+                    <label class="form-check-label" for="type_auto">
+                      <i class="icon-auto" data-select="false"></i>
+                    </label>
+                  </div>
+                  <div class="form-check form-check-inline Form__check__container">
+                    <input class="form-check-input Form__check__input Form__check__input--custom" type="radio" name="type" id="type_electro" value="electro">
+                    <label class="form-check-label" for="type_electro">
+                      <i class="icon-electro" data-select="false"></i>
+                    </label>
+                  </div>
+                </div>
+              </div>
+
+              <div class="form-check">
+                <input type="checkbox" class="form-check-input" id="terms" name="terms">
+                <label class="form-check-label Form__check__label Form__label" for="terms">He leído y acepto <a href="">los términos y condiciones</a></label>
+              </div>
+
+              <p class="text-center mt-4">
+                <button type="submit" class="Btn Btn--ghost text-uppercase">Enviar</button>
+              </p>
+            </form>
+
+            <h5 class="Main__info text-center darkColor">Pide tu préstamo e ingresa a <span><a href="http://www.inversioneslacruz.com.pe/mama" target="_blank" rel="noopener noreferrer">www.inversioneslacruz.com.pe/mama</a></span></h5>
+          </article>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <script src="js/min/bundle.js"></script>
+  <script src="js/min/script.js"></script>
+</body>
+</html>

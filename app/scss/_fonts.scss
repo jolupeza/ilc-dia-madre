@@ -1,0 +1,122 @@
+@font-face {
+  font-family: 'myriad-regular';
+  src: url('./../fonts/myriadpro-regular.eot');
+  src: url('./../fonts/myriadpro-regular.eot?#iefix') format('embedded-opentype'),
+       url('./../fonts/myriadpro-regular.otf') format('opentype'),
+       url('./../fonts/myriadpro-regular.woff') format('woff'),
+       url('./../fonts/myriadpro-regular.ttf')  format('truetype'),
+       url('./../fonts/myriadpro-regular.svg#myriad-regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'myriad-bold';
+  src: url('./../fonts/myriadpro-bold.eot');
+  src: url('./../fonts/myriadpro-bold.eot?#iefix') format('embedded-opentype'),
+       url('./../fonts/myriadpro-bold.otf') format('opentype'),
+       url('./../fonts/myriadpro-bold.woff') format('woff'),
+       url('./../fonts/myriadpro-bold.ttf') format('truetype'),
+       url('./../fonts/myriadpro-bold.svg#myriad-bold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'catalina';
+  src: url('./../fonts/catalina-avalon-sans-inline.eot');
+  src: url('./../fonts/catalina-avalon-sans-inline.eot?#iefix') format('embedded-opentype'),
+       url('./../fonts/catalina-avalon-sans-inline.woff2') format('woff2'),
+       url('./../fonts/catalina-avalon-sans-inline.woff') format('woff'),
+       url('./../fonts/catalina-avalon-sans-inline.ttf') format('truetype'),
+       url('./../fonts/catalina-avalon-sans-inline.svg#catalina') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'aaux-italic';
+  src: url('./../fonts/aaux-proregular-italic.eot');
+  src: url('./../fonts/aaux-proregular-italic.eot?#iefix') format('embedded-opentype'),
+       url('./../fonts/aaux-proregular-italic.woff2') format('woff2'),
+       url('./../fonts/aaux-proregular-italic.woff') format('woff'),
+       url('./../fonts/aaux-proregular-italic.ttf') format('truetype'),
+       url('./../fonts/aaux-proregular-italic.svg#aaux-italic') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'icomoon';
+  src:  url('./../fonts/icomoon.eot?tg7g89');
+  src:  url('./../fonts/icomoon.eot?tg7g89#iefix') format('embedded-opentype'),
+    url('./../fonts/icomoon.ttf?tg7g89') format('truetype'),
+    url('./../fonts/icomoon.woff?tg7g89') format('woff'),
+    url('./../fonts/icomoon.svg?tg7g89#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-auto:before {
+  content: "\e901";
+}
+.icon-auto-select:before {
+  content: "\e90b";
+}
+.icon-electro:before {
+  content: "\e90c";
+}
+.icon-electro-select:before {
+  content: "\e90d";
+}
+.icon-joya:before {
+  content: "\e90e";
+}
+.icon-joya-select:before {
+  content: "\e90f";
+}
+.icon-refresh:before {
+  content: "\e902";
+}
+.icon-keyboard_arrow_up:before {
+  content: "\e903";
+}
+.icon-keyboard_arrow_right:before {
+  content: "\e904";
+}
+.icon-keyboard_arrow_left:before {
+  content: "\e905";
+}
+.icon-keyboard_arrow_down:before {
+  content: "\e906";
+}
+.icon-arrow_upward:before {
+  content: "\e907";
+}
+.icon-arrow_forward:before {
+  content: "\e908";
+}
+.icon-arrow_downward:before {
+  content: "\e909";
+}
+.icon-arrow_back:before {
+  content: "\e90a";
+}
+.icon-camera:before {
+  content: "\e900";
+}

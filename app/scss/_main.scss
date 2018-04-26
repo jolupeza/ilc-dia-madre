@@ -1,0 +1,64 @@
+.Main__slogan, .Main__register {
+}
+.Main__slogan {
+}
+.Main__register {
+}
+.Main__slogan__figure {
+  img {
+    @media screen and (max-width: 991px) {
+      width: 30%;
+    }
+    @media screen and (max-width: 767px) {
+      width: 50%;
+    }
+  }
+}
+
+.Main__resalt {
+  font-family: "catalina";
+  font-size: 3.5rem;
+  @media screen and (max-width: 1199px) {
+    font-size: 3rem;
+  }
+}
+.Main__awards {
+  padding-left: 0;
+  li {
+    list-style: none;
+    margin-right: 1.5rem;
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+}
+.Main__info {
+  font-family: $aaux;
+  font-size: 1.25rem;
+  word-break: break-all;
+  span {
+    display: block;
+  }
+  a {
+    color: $darkColor;
+    font-weight: 700;
+    &:focus, &:hover {
+      color: $accentColor;
+    }
+  }
+}
+.Main__message {
+  font-family: $myriadBold;
+  font-size: 3rem;
+  font-style: italic;
+  @media screen and (max-width: 767px) {
+    font-size: 2.5rem;
+  }
+}
+.Main__title {
+  font-family: $myriadBold;
+  font-size: 3.5rem;
+  @media screen and (max-width: 767px) {
+    font-size: 2.5rem;
+  }
+}
