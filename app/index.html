@@ -44,39 +44,54 @@
 
             <form class="Main__form Form mt-5 mb-4" action="">
               <div class="form-row">
-                <div class="form-group Form__group col-md-6">
+                <div class="form-group Form__group col-md-6 has-error">
                   <label for="name" class="Form__label">Nombre</label>
                   <input type="text" class="form-control Form__control" name="name" id="name" autocomplete="off" />
+                  <span class="help-block mt-2 d-block smaller">
+                    <strong>El campo Nombre es obligatorio.</strong>
+                  </span>
                 </div>
 
-                <div class="form-group Form__group col-md-6">
+                <div class="form-group Form__group col-md-6 has-error">
                   <label for="dni" class="Form__label">D.N.I.</label>
                   <input type="text" class="form-control Form__control" name="dni" id="dni" autocomplete="off" />
+                  <span class="help-block mt-2 d-block smaller">
+                    <strong>El campo Nombre es obligatorio.</strong>
+                  </span>
                 </div>
               </div>
 
               <div class="form-row">
-                <div class="form-group Form__group col-md-6">
+                <div class="form-group Form__group col-md-6 has-error">
                   <label for="email" class="Form__label">Correo</label>
                   <input type="email" class="form-control Form__control" name="email" id="email" autocomplete="off" />
+                  <span class="help-block mt-2 d-block smaller">
+                    <strong>El campo Nombre es obligatorio.</strong>
+                  </span>
                 </div>
 
-                <div class="form-group Form__group col-md-6">
+                <div class="form-group Form__group col-md-6 has-error">
                   <label for="phone" class="Form__label">Teléfono</label>
                   <input type="text" class="form-control Form__control" name="phone" id="phone" autocomplete="off" />
+                  <span class="help-block mt-2 d-block smaller">
+                    <strong>El campo Nombre es obligatorio.</strong>
+                  </span>
                 </div>
               </div>
 
               <div class="form-row">
-                <div class="form-group Form__group col-md-6">
+                <div class="form-group Form__group col-md-6 has-error">
                   <label for="photo" class="Form__label">Comparte tu foto con nosotros</label>
                   <label for="photo" class="Form__file__container">
                     <i class="icon-camera mr-2"></i> Sube tu foto
                     <input type="file" class="form-control-file Form__control__file" id="photo" name="photo" />
                   </label>
+                  <span class="help-block mt-2 d-block smaller">
+                    <strong>El campo Nombre es obligatorio.</strong>
+                  </span>
                 </div>
 
-                <div class="form-group Form__group col-md-6 text-center">
+                <div class="form-group Form__group col-md-6 text-center has-error">
                   <h5 class="Form__label small text-center">¿Qué podrías empeñar en ILC</h5>
 
                   <div class="form-check form-check-inline Form__check__container">
@@ -97,12 +112,21 @@
                       <i class="icon-electro" data-select="false"></i>
                     </label>
                   </div>
+
+                  <span class="help-block mt-2 d-block smaller">
+                    <strong>El campo Nombre es obligatorio.</strong>
+                  </span>
                 </div>
               </div>
 
-              <div class="form-check">
-                <input type="checkbox" class="form-check-input" id="terms" name="terms">
-                <label class="form-check-label Form__check__label Form__label" for="terms">He leído y acepto <a href="">los términos y condiciones</a></label>
+              <div class="form-group Form__group has-error">
+                <div class="form-check">
+                  <input type="checkbox" class="form-check-input" id="terms" name="terms">
+                  <label class="form-check-label Form__check__label Form__label" for="terms">He leído y acepto <a href="">los términos y condiciones</a></label>
+                </div>
+                <span class="help-block mt-2 d-block smaller">
+                  <strong>El campo Nombre es obligatorio.</strong>
+                </span>
               </div>
 
               <p class="text-center mt-4">

@@ -1,11 +1,16 @@
 .Box {
+  align-content: space-between;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   margin-bottom: 3rem;
 }
 .Box__figure {
-  background: transparent url('./../images/frame.png') center 0 no-repeat;
-  background-size: contain;
-  padding: .8rem;
   transform: rotate(1deg);
+  img {
+    border: 15px solid transparent;
+    border-image: url('./../images/frame.png') 15 15 round;
+  }
 }
 .Box__title {
   font-family: $catalina;

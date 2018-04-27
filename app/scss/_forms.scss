@@ -3,6 +3,18 @@
 }
 .Form__group {
   margin-bottom: 1.5rem;
+  &.has-error {
+    .Form__label {
+      color: rgba($dangerColor, .8);
+    }
+    .Form__control {
+      border-color: rgba($dangerColor, .4);
+      box-shadow: 0 0 0 .2rem rgba($dangerColor, .6);
+    }
+    .help-block {
+      color: rgba($dangerColor, .8);
+    }
+  }
 }
 .Form__label {
   color: $textColor;
