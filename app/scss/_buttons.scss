@@ -21,5 +21,13 @@
         color: white;
       }
     }
+    &--accent {
+      border-color: $accentColor;
+      color: $accentColor;
+      &:focus, &:hover {
+        background-color: $accentColor;
+        color: white;
+      }
+    }
   }
 }
