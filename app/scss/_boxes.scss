@@ -5,6 +5,9 @@
   justify-content: center;
   margin-bottom: 3rem;
 }
+.Box__figure, .Box__title {
+  width: 100%;
+}
 .Box__figure {
   transform: rotate(1deg);
   img {

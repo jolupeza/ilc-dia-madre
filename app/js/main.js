@@ -39,6 +39,8 @@ function verifyMedia () {
       icon.removeClass(iconClass).addClass(`${iconClass}-select`).data('select', true);
     });
 
+    $('#picture').on('change', fileValidation);
+
     //$window.on('resize',  function () {
     //  verifyMedia();
     //});
@@ -66,5 +68,28 @@ function verifyMedia () {
       }
     });
   }
+
+  let fileValidation = () => {
+    let fileInput = document.getElementById('picture'),
+        filePath = fileInput.value,
+        allowedExtensions = /(\.jpg|\.jpeg|\.png|\.gif)$/i;
+
+    if ( !allowedExtensions.exec(filePath) ) {
+      document.getElementById('imagePreview').innerHTML = '';
+
+      alert('Cargue el archivo con extensiones .jpeg/.jpg/.png/.gif.');
+      fileInput.value = '';
+      return false;
+    } else {
+      //Image preview
+      if ( fileInput.files && fileInput.files[0] ) {
+          var reader = new FileReader();
+          reader.onload = (e) => {
+              document.getElementById('imagePreview').innerHTML = '<img src="'+e.target.result+'" class="img-fluid" />';
+          };
+          reader.readAsDataURL(fileInput.files[0]);
+      }
+    }
+}
 })(jQuery);
 

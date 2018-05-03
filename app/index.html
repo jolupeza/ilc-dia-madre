@@ -7,49 +7,50 @@
 
   <link rel="stylesheet" href="css/style.css" />
 </head>
-<body class="Body Body--register">
-  <header class="Header">
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col">
-          <h1 class="Header__logo text-center">
-            <a href="index.html">
-              <img class="img-fluid" src="./images/logo.png" alt="Inversiones La Cruz" />
-            </a>
-          </h1>
-        </div>
-      </div>
-    </div>
-  </header>
-
+<body>
   <main class="Main">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-6 align-self-end">
+    <div class="container-fluid">
+      <div class="row align-items-center">
+        <div class="col-lg-6">
           <article class="Main__slogan">
-            <figure class="Main__slogan__figure text-center mb-0">
+            <figure class="Main__slogan__figure text-center">
               <img src="./images/picture-register.png" alt="" class="img-fluid" />
             </figure>
+
+            <h5 class="Main__info text-center darkColor">Pide tu préstamo e ingresa a <span><a href="http://www.inversioneslacruz.com.pe/mama" target="_blank" rel="noopener noreferrer">www.inversioneslacruz.com.pe/mama</a></span></h5>
           </article>
         </div>
         <div class="col-lg-6">
+          <header class="Header">
+            <h1 class="Header__logo text-center">
+              <a href="index.html">
+                <img class="img-fluid" src="./images/logo.png" alt="Inversiones La Cruz" />
+              </a>
+            </h1>
+          </header>
           <article class="Main__register">
             <p class="d-md-none text-center mt-4">
               <a href="finish.html" class="Btn Btn--ghost Btn--ghost--accent text-uppercase d-inline-block">Ya estoy participando</a>
             </p>
 
-            <h2 class="Main__resalt accentColor text-center mb-4">¡Completa tus datos y participa del sorteo de 90 vales!</h2>
+            <h2 class="Main__resalt accentColor text-center mb-2">¡Completa tus datos y participa del sorteo de 100 vales!</h2>
 
-            <ul class="Main__awards d-flex justify-content-center mt-3 mb-3">
-              <li><img src="images/award-day.png" alt="Full day" class="img-fluid"></li>
-              <li><img src="images/award-look.png" alt="Cambio de look" class="img-fluid"></li>
-              <li><img src="images/award-spa.png" alt="Spa" class="img-fluid"></li>
+            <ul class="Main__awards d-flex justify-content-center mt-1 mb-1">
+              <li>
+                <img src="images/award-day.png" alt="Full day" class="img-fluid" />
+              </li>
+              <li>
+                <img src="images/award-look.png" alt="Cambio de look" class="img-fluid" />
+              </li>
+              <li>
+                <img src="images/award-spa.png" alt="Spa" class="img-fluid" />
+              </li>
             </ul>
 
-            <form class="Main__form Form mt-5 mb-4" action="">
+            <form class="Main__form Form mt-3 mb-2" action="">
               <div class="form-row">
                 <div class="form-group Form__group col-md-6 has-error">
-                  <label for="name" class="Form__label">Nombre</label>
+                  <label for="name" class="Form__label">Nombre completo</label>
                   <input type="text" class="form-control Form__control" name="name" id="name" autocomplete="off" />
                   <span class="help-block mt-2 d-block smaller">
                     <strong>El campo Nombre es obligatorio.</strong>
@@ -88,15 +89,16 @@
                   <label for="photo" class="Form__label">Comparte tu foto con nosotros</label>
                   <label for="photo" class="Form__file__container">
                     <i class="icon-camera mr-2"></i> Sube tu foto
-                    <input type="file" class="form-control-file Form__control__file" id="photo" name="photo" />
+                    <input type="file" class="form-control-file Form__control__file" id="picture" name="picture" />
                   </label>
                   <span class="help-block mt-2 d-block smaller">
                     <strong>El campo Nombre es obligatorio.</strong>
                   </span>
+                  <figure class="Form__preview text-center" id="imagePreview"></figure>
                 </div>
 
                 <div class="form-group Form__group col-md-6 text-center has-error">
-                  <h5 class="Form__label small text-center">¿Qué podrías empeñar en ILC</h5>
+                  <h5 class="Form__label small text-center">¿Qué podrías empeñar en ILC?</h5>
 
                   <div class="form-check form-check-inline Form__check__container">
                     <input class="form-check-input Form__check__input Form__check__input--custom" type="radio" name="type" id="type_joya" value="joya">
@@ -138,8 +140,6 @@
                 <a href="finish.html" class="Btn Btn--ghost Btn--ghost--accent text-uppercase d-none d-md-inline-block">Ya estoy participando</a>
               </p>
             </form>
-
-            <h5 class="Main__info text-center darkColor">Pide tu préstamo e ingresa a <span><a href="http://www.inversioneslacruz.com.pe/mama" target="_blank" rel="noopener noreferrer">www.inversioneslacruz.com.pe/mama</a></span></h5>
           </article>
         </div>
       </div>

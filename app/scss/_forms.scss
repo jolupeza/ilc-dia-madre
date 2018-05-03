@@ -2,7 +2,7 @@
 
 }
 .Form__group {
-  margin-bottom: 1.5rem;
+  margin-bottom: 1rem;
   &.has-error {
     .Form__label {
       color: rgba($dangerColor, .8);
@@ -109,5 +109,10 @@
     @media screen and (max-width: 767px) {
       margin-right: 0;
     }
+  }
+}
+.Form__preview {
+  img {
+    width: 100px;
   }
 }
