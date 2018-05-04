@@ -86,6 +86,7 @@
 }
 .Form__check__input {
   &--custom {
+    color: $textColor;
     cursor: pointer;
     display: inline-block;
     min-height: 100%;
