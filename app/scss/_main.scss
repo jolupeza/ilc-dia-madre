@@ -2,6 +2,12 @@
   align-items: center;
   display: flex;
   min-height: 100vh;
+  &--fluid {
+    width: 80%;
+    @media screen and (max-width: 1399px) {
+      width: 100%;
+    }
+  }
 }
 .Main__slogan, .Main__register {
 }
@@ -22,9 +28,13 @@
 
 .Main__resalt {
   font-family: "catalina";
-  font-size: 3rem;
-  @media screen and (max-width: 1199px) {
-    font-size: 2.5rem;
+  @media screen and (max-width: 767px) {
+    font-size: 3em;
+  }
+  .fontMasterBreak {
+    @media screen and (max-width: 767px) {
+      font-size: .7em;
+    }
   }
 }
 .Main__awards {

@@ -100,6 +100,9 @@ li {
   font-size: 1.125em;
   line-height: 1.5;
 }
+.big {
+  font-size: 4rem;
+}
 .small {
   font-size: 1rem;
 }
@@ -146,6 +149,9 @@ li {
 .textColorBg {
   background-color: $textColor;
 }
+.fontMasterBreak {
+  font-family: $masterBreak;
+}
 .ArrowTop {
   background-color: $firstColor;
   border: none;
@@ -164,4 +170,3 @@ li {
     background-color: $secondColor;
   }
 }
-

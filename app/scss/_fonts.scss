@@ -11,6 +11,18 @@
 }
 
 @font-face {
+  font-family: 'master_of_break';
+  src: url('./../fonts/master-of-break.eot');
+  src: url('./../fonts/master-of-break.eot?#iefix') format('embedded-opentype'),
+       url('./../fonts/master-of-break.woff2') format('woff2'),
+       url('./../fonts/master-of-break.woff') format('woff'),
+       url('./../fonts/master-of-break.ttf') format('truetype'),
+       url('./../fonts/master-of-break.svg#master_of_break') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
   font-family: 'myriad-bold';
   src: url('./../fonts/myriadpro-bold.eot');
   src: url('./../fonts/myriadpro-bold.eot?#iefix') format('embedded-opentype'),

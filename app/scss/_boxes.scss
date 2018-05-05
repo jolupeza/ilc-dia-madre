@@ -13,6 +13,7 @@
   img {
     border: 15px solid transparent;
     border-image: url('./../images/frame.png') 15 15 round;
+    max-height: 300px;
   }
 }
 .Box__title {
